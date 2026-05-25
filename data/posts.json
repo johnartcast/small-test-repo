@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "hello-world",
+    "title": "Hello, World",
+    "date": "2025-01-15",
+    "excerpt": "First post on the test blog.",
+    "body": "Welcome to the test blog. This post is statically generated at build time via generateStaticParams, so the HTML is produced once and served from the edge."
+  },
+  {
+    "slug": "server-components",
+    "title": "Server Components in Practice",
+    "date": "2025-02-02",
+    "excerpt": "Why we default to server components.",
+    "body": "Server components let us keep secrets and heavy dependencies on the server while shipping less JavaScript to the client. We reach for client components only when we need state, effects, or browser APIs."
+  },
+  {
+    "slug": "edge-vs-node",
+    "title": "Edge vs Node Runtimes",
+    "date": "2025-03-19",
+    "excerpt": "Choosing a runtime for route handlers.",
+    "body": "The Edge runtime gives lower latency for stateless work, but the Node runtime gives broader compatibility for filesystem access and native modules. The weather route uses Node so it can be moved to a self-hosted environment without changes."
+  }
+]
